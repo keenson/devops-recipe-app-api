@@ -8,7 +8,6 @@ services:
     volumes:
       - static-data:/vol/web/static
       - media-data:/vol/web/media
-
     environment:
       - DB_HOST=db
       - DB_NAME=${DB_NAME}
